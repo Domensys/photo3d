@@ -5,7 +5,8 @@ package.domain = org.localphoto3d
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,json,kv,md
 version = 0.3.0
-requirements = python3,kivy==2.3.0,pyjnius,android,androidstorage4kivy
+requirements = python3==3.11.5,hostpython3==3.11.5,kivy==2.3.0,pyjnius,android,androidstorage4kivy
+p4a.branch = v2024.01.21
 orientation = all
 fullscreen = 0
 android.permissions = READ_MEDIA_IMAGES,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE,MANAGE_EXTERNAL_STORAGE
